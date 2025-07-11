@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Destinations - Wendy Travels</title>
+  <meta name="description" content="Explore world-class travel destinations with Wendy Travels">
+  <meta name="keywords" content="travel, destinations, tours, vacation">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="destinations-page">
+
+   <header id="header" class="header d-flex align-items-center fixed-top">
+    
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0" id="logo">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png">
+        <!--<h1 class="sitename">Wendy Travels</h1>-->
+      </a>
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <nav id="navmenu" class="navmenu">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="destinations.html" class="active">Destinations</a></li>
+                    <li><a href="tours.html">Group Tours</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </nav>
+
+                <a class="btn-getstarted" href="destinations.html"><span class="align-middle m-2 fs-6">Book Now <i class="bi bi-arrow-up-right-circle-fill fs-5"></i></span></a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/travel/destination-page-bg.jpg);">
+      <div class="container position-relative page-header">
+        <h1>Destinations.</h1>
+      </div>
+    </div>
+
+    <!-- Travel Destinations Section -->
+    <section id="travel-destinations" class="travel-destinations section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center destinations-title">
+            <h3>Uncover Captivating <br/> Travel Experiences</h3>
+            <p class="mb-5">From cosmopolitan cities to serene retreats, we help you craft unforgettable memories.</p>
+          </div>
+        </div>
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry">
+          <ul class="destination-filters isotope-filters" data-aos="fade-up">
+            <li data-filter="*" class="filter-active">All Locales</li>
+            <li data-filter=".filter-tropical">Tropical</li>
+            <li data-filter=".filter-mountain">Alpine</li>
+            <li data-filter=".filter-urban">Cityscapes</li>
+            <li data-filter=".filter-historical">Heritage</li>
+            <li data-filter=".filter-coastal">Seaside</li>
+          </ul>
+
+          <div class="row gy-4 isotope-container" id="destination-container"></div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+ <footer id="footer" class="footer position-relative dark-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+           <h3 class="pb-3 fw-bold">Get In Touch</h3>
+          <div class="footer-contact pt-0 fs-5">
+            <p><i class="bi bi-telephone"></i> <span>+27 78 233 0721 </span></p>
+            <p><i class="bi bi-envelope"></i> <a href="mailto:info@wendytravels.co.za">info@wendytravels.co.za</a></p>
+            <p>Cedar Square, Cedar Rd<br/>
+            Fourways, Johannesburg<br/>
+            2068</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-3 footer-links footer-about">
+          <h3 class="pb-3 fw-bold">Useful Links</h3>
+          <ul class="fs-5">
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Destination</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-about">
+          <h3 class="pb-3 fw-bold">Follow Us</h3>
+         <div class="social-links d-flex pt-1">
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+           <p class="lh-1 fw-bold display-6 pt-4 d-flex">WENDY </br>TRAVELS.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Wendy Travels</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://itkaofela.co.za/">Binary Bit Technologies</a>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Dynamic Destinations Script -->
+  <script src="assets/js/destinations.js"></script>
+
+</body>
+</html>

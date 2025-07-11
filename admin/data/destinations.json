@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "title": "C:\\fakepath\\destination-2.webp",
+        "description": "Zanzibar",
+        "image": "assets\/img\/travel\/destination-2.webp",
+        "category": "The tropical playground that's as sizzling as a beachside barbecue! From the vibrant energy of bustling markets",
+        "tag": "coastal",
+        "tag_class": "coastal",
+        "tours": "coastal",
+        "price": "Elysian"
+    },
+    {
+        "id": 2,
+        "title": "Paris, France",
+        "description": "The timeless city, where ancient ruins meet breathtaking Renaissance artistry.",
+        "image": "assets\/img\/travel\/destination-4.webp",
+        "category": "historical",
+        "tag": "Historic",
+        "tag_class": "cultural",
+        "tours": "18 Excursions",
+        "price": "R4,320"
+    },
+    {
+        "id": 3,
+        "title": "Swiss Alps",
+        "description": "Grandiose peaks and unspoiled mountain hamlets await your discovery.",
+        "image": "assets\/img\/travel\/destination-6.webp",
+        "category": "mountain",
+        "tag": "Alpine",
+        "tag_class": "adventure",
+        "tours": "10 Treks",
+        "price": "R5,980"
+    },
+    {
+        "id": 4,
+        "title": "Costa Rica",
+        "description": "Lush rainforests, abundant wildlife, and responsible eco-tourism experiences.",
+        "image": "assets\/img\/travel\/destination-8.webp",
+        "category": "tropical",
+        "tag": "Eco-Venture",
+        "tag_class": "nature",
+        "tours": "14 Expeditions",
+        "price": "R1,650"
+    },
+    {
+        "id": 5,
+        "title": "Dubai, UAE",
+        "description": "A dazzling skyline where futuristic visions meet authentic Arabian warmth.",
+        "image": "assets\/img\/travel\/destination-10.webp",
+        "category": "urban",
+        "tag": "Cosmopolitan",
+        "tag_class": "modern",
+        "tours": "20 Journeys",
+        "price": "R1,470"
+    },
+    {
+        "id": 6,
+        "title": "Amalfi Coast",
+        "description": "Striking cliffs and picturesque villages perched above the cerulean Mediterranean.",
+        "image": "assets\/img\/travel\/destination-12.webp",
+        "category": "coastal",
+        "tag": "Enchanting",
+        "tag_class": "romantic",
+        "tours": "13 Getaways",
+        "price": "R1,850"
+    },
+    {
+        "id": 7,
+        "title": "Thailand",
+        "description": "Gilded temples, pristine beaches, and bustling street markets await.",
+        "image": "assets\/img\/travel\/destination-14.webp",
+        "category": "tropical",
+        "tag": "Vibrant",
+        "tag_class": "popular",
+        "tours": "22 Packages",
+        "price": "R1,100"
+    },
+    {
+        "id": 8,
+        "title": "Nepal Himalayas",
+        "description": "Home to the world's highest peaks and ancient, serene Buddhist sanctuaries.",
+        "image": "assets\/img\/travel\/destination-16.webp",
+        "category": "mountain",
+        "tag": "Ascent",
+        "tag_class": "trekking",
+        "tours": "8 Quests",
+        "price": "R2,300"
+    },
+    {
+        "id": 9,
+        "title": "Egypt",
+        "description": "The eternal wonders of pharaohs and the majestic flow of the River Nile.",
+        "image": "assets\/img\/travel\/destination-18.webp",
+        "category": "historical",
+        "tag": "Timeless",
+        "tag_class": "ancient",
+        "tours": "16 Expeditions",
+        "price": "R1,750"
+    },
+    {
+        "id": 10,
+        "title": "Singapore",
+        "description": "A modern garden city, celebrated for its bold architecture and diverse culinary scene.",
+        "image": "assets\/img\/travel\/destination-20.webp",
+        "category": "urban",
+        "tag": "Family-Friendly",
+        "tag_class": "family",
+        "tours": "17 Adventures",
+        "price": "R1,399"
+    }
+]
